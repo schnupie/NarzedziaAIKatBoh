@@ -144,6 +144,33 @@ p {
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
 }
 
+/* Kontener centrujący przycisk */
+.button-container {
+  text-align: center;
+  margin: 35px 0 15px 0;
+}
+
+.external-btn {
+  display: inline-block;
+  background-color: #01243b;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 32px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.external-btn:hover {
+  background-color: #69b7f7;
+  color: #01243b;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+}
+
 /* =========================================
    4. PODSTRONY REFERATU I GALERIA W TEKŚCIE
    ========================================= */
