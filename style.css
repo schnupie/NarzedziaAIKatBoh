@@ -189,7 +189,6 @@ p {
   margin-bottom: 35px;
 }
 
-/* Nowa, pozioma galeria na zrzuty ekranu pod tekstem */
 .inline-gallery {
   display: flex;
   justify-content: center;
